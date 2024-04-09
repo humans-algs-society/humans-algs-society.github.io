@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sniffle Workshop
+title: Humans, Algorithmic Decision-Making and Society
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for the workshop site here. You can edit this
@@ -38,12 +38,12 @@ plugins:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - index.md
-- speakers.md
+# - speakers.md
 - organizers.md
 - callforpapers.md
 - schedule.md
 - papers.md
-- contactus.md
+# - contactus.md
 
 # # Specify the name of a file to show as a masthead graphic at the top of each page, instead of a title, here:
 # masthead: assets/img/banner.jpg

@@ -1,24 +1,23 @@
 ---
 # Name of the speaker
-name: Jane Doe
+name: Ana-Andreea Stoica
 
 # Link to the speaker's webpage
-webpage: https://jane.doe
+webpage: https://www.columbia.edu/~as5001/
 
 # Primary affiliation of the speaker
-affil: Buzz University
+affil: Max Planck Institute
 # Link to the speaker's primary affiliation
-affil_link: https://buzz.edu
+affil_link: https://www.mpg.de/de
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
-img: jane.jpg
+img: ana-andreea.png
 
 # (Optional) Secondary affiliation of the speaker
-affil2: BuzzFizz Corp
+#affil2: BuzzFizz Corp
 # Link to the speaker's secondary affiliation 
-affil2_link: https://buzzfizz.corp
+#affil2_link: https://buzzfizz.corp
 ---
 
 <!-- Whatever you write below will show up as the speaker's bio -->
 
-Jane Doe is the Foo professor of AI at Buzz University. She also leads the FooBar team at BuzzFizz Corp. Her research interests include FooBuzz, BarFizz, and FooBarBuzzFizz.
