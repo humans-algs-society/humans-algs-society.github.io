@@ -29,6 +29,6 @@ Authors can submit a 4 pages paper in ICML format (excluding references)  that w
 
 <b>Page limit</b>: 4 pages excluding references <br/>
 <b>Paper format</b>: ICML format, anonymous <br/>
-<b>Submission website</b> : https://openreview.net/group?id=ICML.cc/2024/Workshop/Humans-Algs-Society <br/>
+<b>Submission website</b> : <a href="https://openreview.net/group?id=ICML.cc/2024/Workshop/Humans-Algs-Society"> Open Review <a><br/>
 
 
