@@ -11,7 +11,7 @@ affil: DeepMind
 affil_link: https://deepmind.google/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
-img: jane.jpg
+img: laura.jpeg
 
 # (Optional) Secondary affiliation of the speaker
 #affil2: 
