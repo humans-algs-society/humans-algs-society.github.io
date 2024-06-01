@@ -17,7 +17,7 @@ We invite submissions that are related to the interplay of humans, algorithmic d
 
 ### Important Dates
 
-<b>Submission Deadline</b>: 31 May 2024 (Anywhere on Earth) <br/>
+<b>Submission Deadline</b>: <s>31 May 2024 (Anywhere on Earth) </s> 3 June 2024 (Anywhere on Earth) <br/>
 <b>Acceptence Notification</b>: 17 June 2024 <br/>
 <b>Camera Ready</b>: TBD <br/> 
 <b>Workshop Date</b>: 27 July 2024
