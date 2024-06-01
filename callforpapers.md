@@ -24,7 +24,7 @@ We invite submissions that are related to the interplay of humans, algorithmic d
 
 ### Submission Instructions
 
-Authors can submit a 4 pages paper in ICML format (excluding references)  that will be reviewed by the program committee. The papers can present new work or give a summary of recent publications as well as papers that are currently under review. All accepted papers will be considered for the poster sessions. Outstanding papers will also be considered for a contributed talk.
+Authors can submit a 4 pages paper in ICML format (excluding references, impact statements and appendix) that will be reviewed by the program committee. The papers can present new work or give a summary of recent publications as well as papers that are currently under review. All accepted papers will be considered for the poster sessions. Outstanding papers will also be considered for a contributed talk.
 
 
 <b>Page limit</b>: 4 pages excluding references <br/>
