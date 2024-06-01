@@ -55,7 +55,7 @@ The purpose of this workshop is to bring together researchers from both academia
 
 
 ### News
-
+* The paper submission deadline has been extended to **June 3, 2024 AOE**.
 * Call for papers is out! Last date to submit is **May 31, 2024**. Please check [instructions](callforpapers) on how to submit.
 
 
