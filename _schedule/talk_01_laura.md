@@ -6,7 +6,7 @@ sequence_id: 1
 speaker: Laura Weidinger 
 
 # Title of the event
-title: TBD 
+title: Sociotechnical Safety Evaluation of AI systems 
 
 # Time of the event
 time: 0910 - 0940

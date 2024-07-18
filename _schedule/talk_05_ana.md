@@ -6,7 +6,7 @@ sequence_id: 2
 speaker: Ana-Andreea Stoica 
 
 # Title of the event
-title: TBD 
+title: Causal Inference from Competing Treatments  
 
 # Time of the event
 time: 1130 - 1200
