@@ -16,8 +16,9 @@ webpage: https://mraghavan.github.io
 abstract: "In many contexts, algorithmic predictions perform comparably to human expert judgement. However, there are plenty of good reasons to want humans to remain involved in decision-making. Here, we explore one such reason: humans can access information that algorithms cannot. For example, in medical settings, algorithms may be used to assess pathologies based on fixed data, but doctors may directly examine patients. We build a framework to incorporate expert judgements to distinguish between instances that are algorithmically indistinguishable, with the goal of producing predictions that outperform both humans and algorithms in isolation. We evaluate our methods on clinical risk prediction contexts, finding that while algorithms outperform humans on average, humans add valuable information in identifiable cases.
 
 <br/>
+<br/>
 
-Bio:
+<b>Bio</b>:
 Manish Raghavan is the Drew Houston (2005) Career Development Professor at the MIT Sloan School of Management and Department of Electrical Engineering and Computer Science. Before that, he was a postdoctoral fellow at the Harvard Center for Research on Computation and Society (CRCS). His research centers on the societal impacts of algorithmic decision making."
 
 ---
