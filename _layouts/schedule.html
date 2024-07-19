@@ -18,7 +18,7 @@ layout: default
     Button with data-target
   </button>
 </p>
-<div class="collapse" id="1">
+<div class="collapse" id="collapseExample">
   <div class="card card-body">
 	Test.
   </div>
@@ -77,8 +77,8 @@ layout: default
 		        	</div>
 		        	{% if scheduleitem.abstract %}
 		        		<br>
-		        		<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#{{ scheduleitem.sequence_id }}" aria-expanded="false" aria-controls="{{ scheduleitem.sequence_id }}">See Abstract</button>
-					  	<div id="{{ scheduleitem.sequence_id }}" class="collapse out">
+		        		<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#example" aria-expanded="false" aria-controls="{{ scheduleitem.sequence_id }}">See Abstract</button>
+					  	<div id="example" class="collapse out">
 						<div class="card card-body">
  
 						    {{ scheduleitem.abstract }}
