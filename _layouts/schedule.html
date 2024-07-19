@@ -19,21 +19,14 @@ layout: default
 	  				<b>Local Time (EST)</b>
 	  			</p>
 	  		</td>
-<!--			<td>-->
-<!--				<p align="center">-->
-<!--					<b>Time (PDT)</b>-->
-<!--				</p>-->
-<!--			</td>-->
-<!--			<td>-->
-<!--				<p align="center">-->
-<!--					<b>Time (CEST)</b>-->
-<!--				</p>-->
-<!--			</td>-->
-<!--			<td>-->
-<!--			</td>-->
 	  		<td>
 	  			<p align="center">
 	  				<b>Event</b>
+	  			</p>
+	  		</td>
+	  		<td>
+	  			<p align="center">
+	  				<b>Speaker</b>
 	  			</p>
 	  		</td>
 	  	</tr>
@@ -67,6 +60,18 @@ layout: default
 <!--		            </div>-->
 		        </td>
 		        <td align="center">
+		        	<div class="col-xs-12">
+			        	<b>{{ scheduleitem.title }}</b>
+		        	</div>
+		        	{% if scheduleitem.abstract %}
+		        		<br>
+		        		<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#{{ scheduleitem.sequence_id }}">See Abstract</button>
+					  	<div id="{{ scheduleitem.sequence_id }}" class="collapse out">
+						    {{ scheduleitem.abstract }}
+					  	</div>
+		        	{% endif %}
+		        </td>
+		        <td align="center">
 		        	<div class="people-name text-center">
 		            	<!-- scheduleitem name (link to webpage if provided) -->
 		            	{% if scheduleitem.webpage %}
@@ -90,17 +95,6 @@ layout: default
 		                	- {{ scheduleitem.affil2 }}
 		                {% endif %}
 		            </div>
-		        	<div class="col-xs-12">
-			        	<b>{{ scheduleitem.title }}</b>
-		        	</div>
-		        	{% if scheduleitem.abstract %}
-		        		<br>
-		        		<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#{{ scheduleitem.sequence_id }}">See Abstract</button>
-					  	<div id="{{ scheduleitem.sequence_id }}" class="collapse out">
-						    {{ scheduleitem.abstract }}
-					  	</div>
-		        	{% endif %}
-		        </td>
 		    </tr>
 	    {% endfor %}
 	  </table>
