@@ -65,9 +65,12 @@ layout: default
 		        	</div>
 		        	{% if scheduleitem.abstract %}
 		        		<br>
-		        		<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#{{ scheduleitem.sequence_id }}">See Abstract</button>
+		        		<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#{{ scheduleitem.sequence_id }}" role="button">See Abstract</button>
 					  	<div id="{{ scheduleitem.sequence_id }}" class="collapse out">
+						<div class="card card-body">
+ 
 						    {{ scheduleitem.abstract }}
+						</div>
 					  	</div>
 		        	{% endif %}
 		        </td>
