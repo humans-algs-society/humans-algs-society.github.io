@@ -9,5 +9,5 @@ speaker:
 title: Lunch (provided by the venue) 
 
 # Time of the event
-time: 12:30 - 14:00
+time: 1230 - 1400
 ---
