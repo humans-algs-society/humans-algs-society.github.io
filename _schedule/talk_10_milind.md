@@ -6,7 +6,7 @@ sequence_id: 2
 speaker: Milind Tambe 
 
 # Title of the event
-title: Optimizing Interventions for Social Impact: A Multi-Armed Bandit Approach to Public Health
+title: "Optimizing Interventions for Social Impact: A Multi-Armed Bandit Approach to Public Health"
 
 # Time of the event
 time: 0230 - 0300
