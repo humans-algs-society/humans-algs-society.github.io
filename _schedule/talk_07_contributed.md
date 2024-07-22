@@ -3,7 +3,7 @@
 sequence_id: contributed2
 
 # Speaker name
-speaker: "Noga Amit; Shafi Goldwasser; Orr Paradise; Guy N. Rothblum" 
+speaker: 
 
 # Title of the event
 title: "Contributed Talk: Models That Prove Their Own Correctness"
