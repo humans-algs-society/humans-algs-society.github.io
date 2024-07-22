@@ -3,7 +3,7 @@
 sequence_id: 2
 
 # Speaker name
-speaker: Milind Tambe 
+speaker: Fariba Karimi 
 
 # Title of the event
 title: TBD 
@@ -11,5 +11,5 @@ title: TBD
 # Time of the event
 time: 0940 - 1010
 
-webpage: https://teamcore.seas.harvard.edu/tambe
+webpage: https://csh.ac.at/fariba-karimi/ 
 ---
