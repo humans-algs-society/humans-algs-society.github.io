@@ -13,24 +13,21 @@ layout: default
 	  {{ content }}
 
 	  <table>
-	  	<tr>
-	  		<td>
-	  			<p align="center">
-	  				<b>Title</b>
-	  			</p>
-	  		</td>
-	  		<td>
-	  			<p align="center">
-	  				<b>Authors</b>
-	  			</p>
-	  		</td>
-	  	</tr>
 	  	{% for scheduleitem in site.papers%}
 		    <tr>
 		        <td align="center">
 		        	<div class="col-xs-12">
 			        	<b>{{ scheduleitem.title }}</b>
 		        	</div>
+				   <div class="people-name text-center">
+					<!-- scheduleitem name (link to webpage if provided) -->
+					{% if scheduleitem.webpage %}
+						<a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.authors}}</a>
+					{% else %}
+						{{ scheduleitem.authors}}
+					{% endif %}
+					
+				    </div>
 		        	{% if scheduleitem.abstract %}
 		        		<br>
 		        		<button type="button" class="btn btn-link" data-toggle="collapse" data-target="#{{ scheduleitem.sequence_id }}" aria-expanded="false" aria-controls="{{ scheduleitem.sequence_id }}">See Abstract</button>
@@ -40,16 +37,6 @@ layout: default
 					  	</div>
 		        	{% endif %}
 		        </td>
-		        <td align="center">
-		        	<div class="people-name text-center">
-		            	<!-- scheduleitem name (link to webpage if provided) -->
-		            	{% if scheduleitem.webpage %}
-		            		<a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.authors}}</a>
-		            	{% else %}
-		            		{{ scheduleitem.authors}}
-		            	{% endif %}
-		                
-		            </div>
 		    </tr>
 	    {% endfor %}
 	  </table>
