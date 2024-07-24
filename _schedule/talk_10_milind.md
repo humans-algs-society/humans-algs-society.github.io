@@ -9,7 +9,7 @@ speaker: Milind Tambe
 title: "Optimizing Interventions for Social Impact: A Multi-Armed Bandit Approach to Public Health"
 
 # Time of the event
-time: 0230 - 0300
+time: 1430 - 1500
 
 webpage: https://teamcore.seas.harvard.edu/tambe
 ---
