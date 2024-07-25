@@ -3,7 +3,7 @@
 sequence_id: contributed1
 
 # Speaker name
-speaker: 
+speaker: Rasmi Elasmar 
 
 # Title of the event
 title: "Contributed Talk: Generative AI Misuse: A Taxonomy of Tactics and Insights from Media Data"
