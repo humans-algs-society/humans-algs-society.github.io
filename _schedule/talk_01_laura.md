@@ -9,7 +9,7 @@ speaker: Laura Weidinger
 title: Sociotechnical Safety Evaluation of AI systems 
 
 # Time of the event
-time: 0910 - 0940
+time: 0940 - 1010
 
 webpage: https://scholar.google.com/citations?user=SFQLTCkAAAAJ&hl=en
 

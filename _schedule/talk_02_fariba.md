@@ -1,6 +1,6 @@
 ---
 # Determines which item appears first on the schedule (lowest number (0) appears first)
-sequence_id: 2
+sequence_id: fariba
 
 # Speaker name
 speaker: Fariba Karimi 
@@ -9,7 +9,7 @@ speaker: Fariba Karimi
 title: Inequality and Fairness in social networks and algorithms 
 
 # Time of the event
-time: 0940 - 1010
+time: 0910 - 0940
 
 webpage: https://csh.ac.at/fariba-karimi/ 
 
